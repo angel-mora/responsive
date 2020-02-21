@@ -5,15 +5,10 @@ Microverse 6th project
 
 - Day 1
   - Basic structure in HTML and CSS 
-  - Readings (12-16)
-  - Discussion (16-17)
 - Day 2
-  - Perform layout in Grid (9-11)
-  - Readings (11-14:30)
-  - Color boxes and add fonts (14:30-17)
+  - Add subtask
 - Day 3
-  - Finish project
-  - Add linters and debugging  
+  - Add subtask
 
 ## Built With
 
@@ -27,7 +22,7 @@ https://meme-es.github.io/responsive/
 
 👤 **Angel Mora**
 
-- Github: [@antel-mora](https://github.com/angel-mora)
+- Github: [@angel-mora](https://github.com/angel-mora)
 - Twitter: [@angelmoma_](https://twitter.com/angelmoma_)
 - Linkedin: [linkedin](https://www.linkedin.com/in/angelmoma/)
 
