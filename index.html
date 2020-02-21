@@ -5,21 +5,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TNW</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <main>
 
-        <header>
+        <header class="main-header">
             <!-- this should be fixed to the top -->
-            <nav>
-                <ul>
+            <nav class="navbar">
+                <ul class="menu">
                     <li class="logo">TNW</li>
                     <li>Search</li>
                     <li>Menu</li>
                 </ul>
             </nav>
-            <div>
+            <div class="yellow-band">
                 <a href="#">Did you know we have a TECH FESTIVAL? Check it out →</a>
             </div>
         </header>
@@ -27,24 +28,29 @@
         <div class="wrapper">
             <section class="cover">
                 <article>
-                    <img src="images/" alt="image">
+                    <span>INSIGHTS</span>
                     <h3>UN will use AI to learn what people want from peace deals</h3>
-                    <p>by Thomas Macaulay</p>
-                    <p><i>Clock</i>53 minutes ago</p>
-                    <p><i>Share</i>0</p>
+                    <ul>
+                        <li>by Thomas Macaulay</li>
+                        <li>4 hours ago</li>
+                        <li>11</li>
+                    </ul>
                 </article>
             </section>
 
             <section class="news">
-                <article>
-                    <h2>Latest news ></h2>
+                <h2>Latest news ></h2>
 
-                    <img src="images/" alt="image">
-                    <h4>I hate Apple for making me shake my MacBook like a chump</h4>
-                    <ul>
-                        <li>Author </li>
-                        <li>1 hour ago</li>
-                    </ul>
+                <article>
+                    <a href="#"></a>
+                    <div>
+                        <h4>I hate Apple for making me shake my MacBook like a chump</h4>
+                        <ul>
+                            <li>Author </li>
+                            <li> &#8226; </li>
+                            <li> 1 hour ago</li>
+                        </ul>    
+                    </div>
                 </article>
             </section>
 
@@ -52,18 +58,28 @@
                 <header>
                     <h2>Latest funding rounds on Index.co ></h2>
                 </header>
-                <a href="#">See more</a>
-                <a href="#">Get updates by email</a>
-                <a href="#">Add info</a>
+                <div class="funding-links">
+                    <a href="#">See more</a>
+                    <a href="#">Get updates by email</a>
+                    <a href="#">Add info</a>    
+                </div>
 
                 <div class="rounds-wrapper">
-                    <div class="rounds-container">
-                        <article class="rounds-item">
-                            <img src="images/" alt="image">
-                            <h3>UltraSense Systems</h3>
-                            <h4>$20M</h4>
-                            <p>SERIES B</p>
-                        </article>
+                    <div class="rounds-item">
+                        <div class="rounds-item-content">
+                            <a href="">
+                                <img src="./images/img1.png" alt="Ultrasense image">
+                                <h3>UltraSense Systems</h3>
+                                <div>
+                                    <h4>$20M</h4>
+                                    <p>SERIES B</p>    
+                                </div>
+                            </a>                            
+                        </div>
+                        <div class="border-bottom">
+                            <a href="#">Artiman Venture, +5</a>
+                        </div>
+                        <a href="#">UltraSence Raises $20 Million To Grow Its Ultrasound Sensor Technologies<span> on Pulse 2.0</span></a>
                     </div>
                 </div>
 

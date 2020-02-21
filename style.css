@@ -12,7 +12,137 @@ html {
     padding: 0;
 }
 
-nav {
+.main-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.menu {
     display: grid;
-    grid-template-columns: 2fr auto 2fr;
+    grid-template-columns: 100px auto 100px; 
+    list-style-type: none;
+    justify-items: center;
+    background-color: white;
+}
+
+.menu li {
+    height: 48px;
+}
+
+.yellow-band {
+    display: grid;
+    grid-template: 1 / 1;
+    height: 60px;
+    background-color: #fd3;
+    align-items: center;
+    justify-items: center;
+}
+
+.yellow-band a {
+    text-decoration: none;
+}
+
+.wrapper {
+    padding-top: 100px;
+}
+
+.cover {
+    color: white;
+}
+
+.cover article {
+    background: url(./images/Untitled-design.png);
+    background-size: cover;
+    height: 195px;
+    display: grid;
+    align-content: end;
+}
+
+.cover article ul {
+    display: flex;
+}
+
+.news article {
+    display: grid;
+    grid-gap: 15px;
+    grid-template: 1fr / 75px auto;
+    height: 75px;
+}
+
+.news h2, .funding-rounds h2{
+    color: #f42;
+    padding: 18px 0;
+}
+
+.news article a {
+    background-image: url(./images/apple-macbook.jpg);
+    background-size: cover;
+    background-position: center;
+    display: block;
+}
+
+.news article ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.funding-links {
+    display: flex;
+    flex-direction: column;
+}
+
+.funding-rounds a {
+    display: block;
+    padding: 6px;
+    text-decoration: none;
+    color: #f42;
+}
+
+.rounds-item-content {
+    position: relative;
+}
+
+.rounds-item-content img {
+    height: 60px;
+    height: 60px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 15px;
+}
+
+.rounds-item-content h3 {
+    background-color: #f42;
+    color: white;
+    height: 45px;
+    padding-top: 8px;
+    padding-left: 82px;
+}
+
+.rounds-item-content div {
+    background: rgba(255, 68, 34, 0.08);
+    height: 60px;
+    padding-top: 8px;
+    padding-left: 82px;
+}
+
+.rounds-item-content h4 {
+    color: black;
+}
+
+.rounds-item-content p {
+    color: gray;
+    font-size: 12px;
+}
+
+.rounds-item a {
+    background: #fffaf8;
+    color: #505050;
+    font-size: 14px;
+}
+
+.rounds-item .border-bottom {
+    border-bottom: 1px solid rgba(255, 68, 34, .25);
 }
