@@ -13,6 +13,10 @@ html {
     padding: 0;
 }
 
+a {
+    text-decoration: none;
+}
+
 .main-header {
     position: fixed;
     top: 0;
@@ -83,7 +87,6 @@ html {
 .yellow-band a {
     height: 100%;
     width: 100%;
-    text-decoration: none;
     font-size: 13px;
     color: black;
 }
@@ -107,8 +110,15 @@ html {
 }
 
 .cover-image {
-    background-image: url(./images/Untitled-design.png);
     background-size: cover;
+}
+
+.img-cover-01 {
+    background-image: url(./images/cover-01.png);
+}
+
+.img-section-app {
+    background-image: url(./images/section-app.png);
 }
 
 .cover-link {
@@ -134,15 +144,11 @@ html {
     letter-spacing: -.015em;
 }
 
-.cover-header a {
-    text-decoration: none;    
-}
-
 .cover-header a:visited {
     color: white;
 }
 
-.cover article ul {
+.cover article ul, .section article ul {
     display: flex;
     list-style: none;
     color: gray;
@@ -156,11 +162,13 @@ html {
     letter-spacing: -.015em;
 }
 
-.news h2 a:visited, .funding-rounds h2 a:visited {
+.news h2 a:visited,
+.funding-rounds h2 a:visited,
+.section h2 a:visited {
     color: #f42;
 }
 
-.news, .funding-rounds{
+.news, .funding-rounds, .sections {
     padding: 0 20px;
 }
 
@@ -175,10 +183,6 @@ html {
     font-size: 14px;
 }
 
-.news a {
-    text-decoration: none;
-}
-
 .news a:visited {
     color: black;
 }
@@ -189,8 +193,8 @@ html {
     display: block;
 }
 
-.img-one {
-    background-image: url(./images/apple-macbook.jpg);
+.img-news-01 {
+    background-image: url(./images/news-01.jpg);
 }
 
 .news article ul {
@@ -205,10 +209,6 @@ html {
     color: gray;
 }
 
-.funding-rounds a {
-    text-decoration: none;
-}
-
 .funding-links {
     display: flex;
     flex-direction: column;
@@ -217,7 +217,6 @@ html {
 .funding-link {
     display: block;
     padding: 6px;
-    text-decoration: none;
     color: #f42;
 }
 
@@ -228,7 +227,6 @@ html {
 
 .rounds-item-content {
     position: relative;
-    z-index: -1;
 }
 
 .rounds-item-content img {
@@ -279,4 +277,113 @@ html {
 .rounds-item .border-bottom {
     border-bottom: 1px solid rgba(255, 68, 34, .25);
     padding-bottom: 5px;
+}
+
+.section ul {
+    list-style-type: none;
+}
+
+.section-image, .section-link {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    top: 0;
+    right: 0;
+}
+
+.sections-latest {
+    display: grid;
+    grid-template-columns: auto 96px;
+    color: #f42;
+}
+
+.sections-latest a:visited {
+    color: #f42;
+}
+
+.header-rose {
+    background-color: rgba(255, 68, 34, .06);
+    padding: 10px 14px 0;
+}
+
+.sections-latest h4 {
+    font-size: 12px;
+}
+
+.sections-latest h3 {
+    font-size: 15px;
+    line-height: 1.25;
+}
+
+.section-latest-01 {
+    background-image: url(./images/section-latest-01.jpg);
+    height: 96px;
+}
+
+.sections-headline {
+    border-bottom: 1px solid #eee;
+}
+
+.sections-headline h4 {
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.sections-headline h4 a {
+    color: #555;
+    display: block;
+    padding: 6px 0 6px 14px;
+    position: relative;
+}
+
+.sections-headline h4 a::before {
+    background-color: #f42;
+    border-radius: 50%;
+    content: "";
+    display: block;
+    height: 4px;
+    left: 0;
+    position: absolute;
+    top: 13px;
+    width: 4px;
+}
+
+.deals header {
+    margin-bottom: 24px;
+}
+
+.deals header h2 {
+    float: left;
+    line-height: 32px;
+    margin: 0;
+    padding: 0;
+}
+
+.deals header a {
+    float: right;
+    line-height: 18px;
+    margin-top: 21px;
+    color: #f42;
+}
+
+.deals header a:visited {
+    color: #f42;
+}
+
+.deals header::after {
+    clear: both;
+    content: "";
+    display: block;
+}
+
+.line-through {
+    text-decoration: line-through;
+}
+
+.soft-black {
+    color: #555;
+}
+
+.img-deal-01 {
+    background-image: url(./images/deals-01.jpg);
 }
