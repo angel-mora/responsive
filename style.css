@@ -2,6 +2,7 @@ html {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 *,
@@ -17,18 +18,57 @@ html {
     top: 0;
     left: 0;
     right: 0;
+    z-index: 100;
 }
 
 .menu {
     display: grid;
-    grid-template-columns: 100px auto 100px; 
+    grid-template-columns: 105px auto 48px 48px;
     list-style-type: none;
     justify-items: center;
     background-color: white;
+    height: 48px;
 }
 
-.menu li {
-    height: 48px;
+.logo {
+    background: linear-gradient(to bottom right, #c09, #f42 85%);
+    width: 100%;
+    text-align: center;
+}
+
+.logo a {
+    height: 100%;
+    display: grid;
+    grid-template: 1 / 1;
+    place-items: center center;
+}
+
+.logo img {
+    width: 70%;
+}
+
+.search, .ham-menu {
+    width: 47px;
+    display: grid;
+    grid-template: 1 / 1;
+    place-items: center center;
+    border-left: 1px solid #eeeeee;
+}
+
+.search a, .ham-menu a {
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template: 1 / 1;
+    align-content: center;
+    justify-content: center;
+}
+
+.ham-menu span {
+    background-color: #f42;
+    height: 2px;
+    width: 20px;
+    margin-top: 4px;
 }
 
 .yellow-band {
@@ -36,32 +76,92 @@ html {
     grid-template: 1 / 1;
     height: 60px;
     background-color: #fd3;
-    align-items: center;
-    justify-items: center;
+    align-content: center;
+    justify-content: center;
 }
 
 .yellow-band a {
+    height: 100%;
+    width: 100%;
     text-decoration: none;
+    font-size: 13px;
+    color: black;
 }
 
 .wrapper {
     padding-top: 100px;
 }
 
-.cover {
+.cover-item {
+    position: relative;
     color: white;
+    min-height: 30vh;
 }
 
-.cover article {
-    background: url(./images/Untitled-design.png);
+.cover-image, .cover-link {
+    position: absolute;
+    bottom: 4px;
+    left: 4px;
+    top: 4px;
+    right: 4px;
+}
+
+.cover-image {
+    background-image: url(./images/Untitled-design.png);
     background-size: cover;
-    height: 195px;
-    display: grid;
-    align-content: end;
+}
+
+.cover-link {
+    background: url(./images/image-gradient.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+.cover-header {
+    bottom: 4px;
+    left: 4px;
+    right: 4px;
+    position: absolute;
+    padding: 14px 12px;
+}
+
+.cover-header span {
+    font-size: 14px;
+}
+
+.cover-header h3 {
+    font-size: 20px;
+    margin-bottom: .25em;
+    letter-spacing: -.015em;
+}
+
+.cover-header a {
+    text-decoration: none;    
+}
+
+.cover-header a:visited {
+    color: white;
 }
 
 .cover article ul {
     display: flex;
+    list-style: none;
+    color: gray;
+    font-size: 12px;
+}
+
+.news h2, .funding-rounds h2, .sections h2{
+    color: #f42;
+    padding: 18px 0;
+    font-size: 28px;
+    letter-spacing: -.015em;
+}
+
+.news h2 a:visited, .funding-rounds h2 a:visited {
+    color: #f42;
+}
+
+.news, .funding-rounds{
+    padding: 0 20px;
 }
 
 .news article {
@@ -71,21 +171,42 @@ html {
     height: 75px;
 }
 
-.news h2, .funding-rounds h2{
-    color: #f42;
-    padding: 18px 0;
+.news h4 {
+    font-size: 14px;
 }
 
-.news article a {
-    background-image: url(./images/apple-macbook.jpg);
+.news a {
+    text-decoration: none;
+}
+
+.news a:visited {
+    color: black;
+}
+
+.img {
     background-size: cover;
     background-position: center;
     display: block;
 }
 
+.img-one {
+    background-image: url(./images/apple-macbook.jpg);
+}
+
 .news article ul {
     display: flex;
     list-style-type: none;
+    color: gray;
+    font-size: 12px;
+    padding-top: 4px;
+}
+
+.news article ul li a:visited {
+    color: gray;
+}
+
+.funding-rounds a {
+    text-decoration: none;
 }
 
 .funding-links {
@@ -93,15 +214,21 @@ html {
     flex-direction: column;
 }
 
-.funding-rounds a {
+.funding-link {
     display: block;
     padding: 6px;
     text-decoration: none;
     color: #f42;
 }
 
+.rounds-item {
+    padding: 10px 0;
+}
+
+
 .rounds-item-content {
     position: relative;
+    z-index: -1;
 }
 
 .rounds-item-content img {
@@ -137,12 +264,19 @@ html {
     font-size: 12px;
 }
 
-.rounds-item a {
-    background: #fffaf8;
+.rose a {
     color: #505050;
     font-size: 14px;
+    padding: 6px 0;
+    display: block;
+}
+
+.rose {
+    background: #fffaf8;
+    padding: 12px;
 }
 
 .rounds-item .border-bottom {
     border-bottom: 1px solid rgba(255, 68, 34, .25);
+    padding-bottom: 5px;
 }
