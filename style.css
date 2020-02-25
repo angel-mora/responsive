@@ -51,7 +51,8 @@ a {
     width: 70%;
 }
 
-.search, .ham-menu {
+.search,
+.ham-menu {
     width: 47px;
     display: grid;
     grid-template: 1 / 1;
@@ -59,7 +60,8 @@ a {
     border-left: 1px solid #eeeeee;
 }
 
-.search a, .ham-menu a {
+.search a,
+.ham-menu a {
     height: 100%;
     width: 100%;
     display: grid;
@@ -101,7 +103,8 @@ a {
     min-height: 30vh;
 }
 
-.cover-image, .cover-link {
+.cover-image,
+.cover-link {
     position: absolute;
     bottom: 4px;
     left: 4px;
@@ -163,7 +166,9 @@ a {
     font-size: 12px;
 }
 
-.news h2, .funding-rounds h2, .sections h2{
+.news h2,
+.funding-rounds h2,
+.sections h2 {
     color: #f42;
     padding: 18px 0;
     font-size: 28px;
@@ -176,7 +181,9 @@ a {
     color: #f42;
 }
 
-.news, .funding-rounds, .sections {
+.news,
+.funding-rounds,
+.sections {
     padding: 0 20px;
 }
 
@@ -263,7 +270,6 @@ a {
 .rounds-item {
     padding: 10px 0;
 }
-
 
 .rounds-item-content {
     position: relative;
@@ -454,4 +460,127 @@ a {
 
 .img-deal-08 {
     background-image: url(./images/deals-08.jpg);
+}
+
+/* footer section */
+
+footer {
+    display: grid;
+    background-color: #131313;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
+}
+
+.footer-wrapper {
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: 1fr;
+    padding: 4rem 0;
+    height: auto;
+}
+
+.footer-links-social {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-bottom: 2em;
+    height: 40px;
+}
+
+.footer-links-social li {
+    list-style-type: none;
+    padding: 18px;
+    background-color: rgb(47, 47, 47);
+    border-radius: 50%;
+}
+
+.fb {
+    background-image: url("images/facebook.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.twitter {
+    background-image: url("images/twitter.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.youtube {
+    background-image: url("images/youtube.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.instagram {
+    background-image: url("images/instagram.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.pinterest {
+    background-image: url("images/pinterest.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 50%;
+}
+
+.rrss {
+    background-image: url("images/rrss.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.email {
+    background-image: url("images/email.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.footer-links-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    padding: 0 60px;
+    font-size: 12px;
+}
+
+.footer-links-menu a {
+    color: #999;
+    text-decoration: none;
+}
+
+.footer-legal {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    padding: 3rem 0;
+    color: #999;
+}
+
+.footer-bottom {
+    text-align: center;
+}
+
+.footer-bottom span {
+    font-size: 13px;
+    font-family: Roboto, sans-serif;
+}
+
+#tnw-logo {
+    width: 40px;
+    height: 10px;
+    margin-right: 7px;
+}
+
+#love {
+    color: red;
+}
+
+#stackpath {
+    width: 75px;
+    height: 9px;
 }

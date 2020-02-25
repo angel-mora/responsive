@@ -15,16 +15,20 @@
             <!-- this should be fixed to the top -->
             <nav class="navbar">
                 <ul class="menu">
-                    <li class="logo"><a href="#"><img src="./images/tnw.svg" alt="The next web logo"></a></li>
+                    <li class="logo">
+                        <a href="#"><img src="./images/tnw.svg" alt="The next web logo"></a>
+                    </li>
                     <li></li>
-                    <li class="search"><a href="#">
-                        <img src="./images/magnifying-glass.PNG" alt="Magnifying glass icon">
-                    </a></li>
+                    <li class="search">
+                        <a href="#">
+                            <img src="./images/magnifying-glass.PNG" alt="Magnifying glass icon">
+                        </a>
+                    </li>
                     <li class="ham-menu">
                         <a href="#">
                             <span></span>
                             <span></span>
-                            <span></span>                        
+                            <span></span>
                         </a>
                     </li>
                 </ul>
@@ -46,7 +50,7 @@
                             <li>by Thomas Macaulay&nbsp;</li>
                             <li>4 hours ago&nbsp;</li>
                             <li>11</li>
-                        </ul>    
+                        </ul>
                     </header>
                 </article>
                 <article class="cover-item">
@@ -179,7 +183,7 @@
                 <div class="funding-links">
                     <a class="funding-link" href="#">See more</a>
                     <a class="funding-link" href="#">Get updates by email</a>
-                    <a class="funding-link" href="#">Add info</a>    
+                    <a class="funding-link" href="#">Add info</a>
                 </div>
 
                 <div class="rounds-wrapper">
@@ -192,13 +196,13 @@
                                     <h4>$20M</h4>
                                     <p>SERIES B</p>
                                 </div>
-                            </a>                            
+                            </a>
                         </div>
                         <div class="rose">
                             <div class="border-bottom">
                                 <a href="#">Artiman Venture, +5</a>
                             </div>
-                            <a href="#">UltraSence Raises $20 Million To Grow Its Ultrasound Sensor Technologies<span> on Pulse 2.0</span></a>    
+                            <a href="#">UltraSence Raises $20 Million To Grow Its Ultrasound Sensor Technologies<span> on Pulse 2.0</span></a>
                         </div>
                     </div>
                     <div class="rounds-item">
@@ -387,15 +391,16 @@
 
             <footer>
                 <div class="footer-links">
-                    <div class="wrapper">
+                    <div class="footer-wrapper">
                         <ul class="footer-links-social">
-                            <li><a href="#"><i>fb</i></a></li>
-                            <li><a href="#"><i>fb</i></a></li>
-                            <li><a href="#"><i>fb</i></a></li>
-                            <li><a href="#"><i>fb</i></a></li>
-                            <li><a href="#"><i>fb</i></a></li>
-                            <li><a href="#"><i>fb</i></a></li>
-                            <li><a href="#"><i>fb</i></a></li>
+                            <!-- maybe the i classes are not necessary -->
+                            <li class="fb"><a href="#"><i></i></a></li>
+                            <li class="twitter"><a href="#"><i></i></a></li>
+                            <li class="youtube"><a href="#"><i></i></a></li>
+                            <li class="instagram"><a href="#"><i></i></a></li>
+                            <li class="pinterest"><a href="#"><i></i></a></li>
+                            <li class="rrss"><a href="#"><i></i></a></li>
+                            <li class="email"><a href="#"><i></i></a></li>
                         </ul>
                         <ul class="footer-links-menu">
                             <li><a href="#">EVENTS</a></li>
@@ -407,13 +412,13 @@
                     </div>
                 </div>
                 <div class="footer-legal">
-                    <div class="wrapper">
+                    <div class="footer-bottom">
                         <span>
-                          <a href="#"><img src="images/tnw.svg" alt="TNW"></a>&copy; 2006-2020  The Next Web B.V.
-                        </span>
-                        <span>Made with <b>♥</b> in Amsterdam.
-                        </span>
-                        <span>Powered by <a href="#"><img src="images/" alt="STACKPATH"></a></span>
+                          <a href="#"><img id="tnw-logo" src="images/tnw.svg" alt="TNW"></a>&copy; 2006-2020  The Next Web B.V.
+                        </span><br>
+                        <span>Made with <b id="love">♥</b> in Amsterdam.
+                        </span><br>
+                        <span>Powered by <a href="#"><img id="stackpath" src="images/stackpath.svg" alt="STACKPATH"></a></span>
                     </div>
                 </div>
             </footer>
