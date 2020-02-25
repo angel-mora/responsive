@@ -117,6 +117,14 @@ a {
     background-image: url(./images/cover-01.png);
 }
 
+.img-cover-02 {
+    background-image: url(./images/cover-02.png);
+}
+
+.img-cover-03 {
+    background-image: url(./images/cover-03.jpg);
+}
+
 .img-section-app {
     background-image: url(./images/section-app.png);
 }
@@ -197,6 +205,38 @@ a {
     background-image: url(./images/news-01.jpg);
 }
 
+.img-news-02 {
+    background-image: url(./images/news-02.jpg);
+}
+
+.img-news-03 {
+    background-image: url(./images/news-03.jpg);
+}
+
+.img-news-04 {
+    background-image: url(./images/news-04.png);
+}
+
+.img-news-05 {
+    background-image: url(./images/news-05.jpg);
+}
+
+.img-news-06 {
+    background-image: url(./images/news-06.png);
+}
+
+.img-news-07 {
+    background-image: url(./images/news-07.jpg);
+}
+
+.img-news-08 {
+    background-image: url(./images/news-08.jpg);
+}
+
+.news article {
+    padding-bottom: 12px;
+}
+
 .news article ul {
     display: flex;
     list-style-type: none;
@@ -264,8 +304,8 @@ a {
 
 .rose a {
     color: #505050;
-    font-size: 14px;
-    padding: 6px 0;
+    font-size: 13px;
+    padding: 5px 0;
     display: block;
 }
 
@@ -386,4 +426,32 @@ a {
 
 .img-deal-01 {
     background-image: url(./images/deals-01.jpg);
+}
+
+.img-deal-02 {
+    background-image: url(./images/deals-02.jpg);
+}
+
+.img-deal-03 {
+    background-image: url(./images/deals-03.jpg);
+}
+
+.img-deal-04 {
+    background-image: url(./images/deals-04.jpg);
+}
+
+.img-deal-05 {
+    background-image: url(./images/deals-05.jpg);
+}
+
+.img-deal-06 {
+    background-image: url(./images/deals-06.jpg);
+}
+
+.img-deal-07 {
+    background-image: url(./images/deals-07.jpg);
+}
+
+.img-deal-08 {
+    background-image: url(./images/deals-08.jpg);
 }
