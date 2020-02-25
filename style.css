@@ -17,6 +17,10 @@ a {
     text-decoration: none;
 }
 
+.hide {
+    display: none;
+}
+
 .main-header {
     position: fixed;
     top: 0;
@@ -159,7 +163,8 @@ a {
     color: white;
 }
 
-.cover article ul, .section article ul {
+.cover article ul,
+.section article ul {
     display: flex;
     list-style: none;
     color: gray;
@@ -329,7 +334,8 @@ a {
     list-style-type: none;
 }
 
-.section-image, .section-link {
+.section-image,
+.section-link {
     position: absolute;
     bottom: 0;
     left: 0;
@@ -395,7 +401,8 @@ a {
 }
 
 .deals header {
-    margin-bottom: 24px;
+    margin-bottom: 30px;
+    margin-top: 35px;
 }
 
 .deals header h2 {
@@ -461,6 +468,7 @@ a {
 .img-deal-08 {
     background-image: url(./images/deals-08.jpg);
 }
+
 
 /* footer section */
 
@@ -583,4 +591,33 @@ footer {
 #stackpath {
     width: 75px;
     height: 9px;
+}
+
+@media (min-width: 768px) {
+    .navbar {
+        display: grid;
+        grid-template-columns: 106px auto auto;
+        grid-template-rows: repeat(2, auto);
+        grid-template-areas: "logo top-gray top-gray" "logo . .";
+    }
+    .navtnw {
+        display: flex;
+        flex-direction: row;
+        grid-area: top-gray;
+    }
+    .navtnw ul {
+        display: flex;
+    }
+    .navtnw li {
+        display: inline-block;
+    }
+    .ham-menu {
+        display: none;
+    }
+}
+
+@media (min-width: 1024px) {
+    .main-header {
+        display: none;
+    }
 }
