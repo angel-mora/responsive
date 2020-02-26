@@ -1,22 +1,19 @@
 # Responsive Design
-Microverse 6th project
 
-# Proposal
+> This is an HTML & CSS project build with the intended of practice some responsive knowledge owned, the project is about cloning a famous web page, The Next Web, this was an exercise and not a direct copy, the HTML and CSS structure may vary.
 
-- Day 1
-  - Basic structure in HTML and CSS 
-- Day 2
-  - Add subtask
-- Day 3
-  - Add subtask
+![screenshot](./screenshot.png)
+
+You can find the link of the original page where this project was clone from [here](https://thenextweb.com/).
 
 ## Built With
 
-- HTML, CSS
+- HTML
+- CSS
 
 ## Live Demo
 
-https://meme-es.github.io/responsive/
+[Live Demo Link](https://rawcdn.githack.com/meme-es/responsive/development/)
 
 ## Authors
 
@@ -26,7 +23,7 @@ https://meme-es.github.io/responsive/
 - Twitter: [@angelmoma_](https://twitter.com/angelmoma_)
 - Linkedin: [linkedin](https://www.linkedin.com/in/angelmoma/)
 
-👤 **Manuel Muhun**
+👤 **Manuel**
 - Github: [@meme-es](https://github.com/meme-es)
 - Twitter: [@meme_es](https://twitter.com/meme_es)
 - Linkedin: [linkedin](https://www.linkedin.com/in/manuel-elias-b289a638/)
@@ -35,15 +32,12 @@ https://meme-es.github.io/responsive/
 
 Contributions, issues and feature requests are welcome!
 
+Feel free to check the [issues page](https://github.com/meme-es/responsive/issues).
+
 ## Show your support
 
 Give a ⭐️ if you like this project!
 
-## Acknowledgments
-
-Thanks to Microverse!
-
 ## 📝 License
 
-none
-
+There is no license for this work.
