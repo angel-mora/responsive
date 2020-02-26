@@ -13,7 +13,6 @@ html {
   padding: 0;
 }
 
-
 /* links decoration and color */
 
 a {
@@ -184,9 +183,6 @@ a .gray:hover {
 .search,
 .ham-menu {
   width: 47px;
-  /* display: grid;
-grid-template: 1 / 1;
-place-items: center center; */
   display: flex;
   flex-direction: row;
   border-left: 1px solid #eee;
@@ -329,13 +325,6 @@ place-items: center center; */
   font-size: 28px;
   letter-spacing: -0.015em;
 }
-
-
-/* .news h2 a:visited,
-.funding-rounds h2 a:visited,
-.section h2 a:visited {
-color: #f42;
-} */
 
 .news,
 .funding-rounds,
@@ -632,7 +621,6 @@ color: #f42;
   background-image: url(./images/deals-08.jpg);
 }
 
-
 /* footer section */
 
 footer {
@@ -769,7 +757,9 @@ footer {
     align-items: center;
     padding-left: 126px;
   }
+
   /* general settings */
+
   .news,
   .funding-rounds,
   .sections {
@@ -778,7 +768,9 @@ footer {
   .wrapper {
     padding-top: 14vh;
   }
+
   /* covers section */
+
   .cover {
     padding-top: 106px;
     display: grid;
@@ -790,7 +782,9 @@ footer {
     grid-row: span 2;
     grid-column: span 2;
   }
+
   /* news section */
+
   .news-body {
     display: flex;
     flex-wrap: wrap;
@@ -806,21 +800,27 @@ footer {
   }
   .news-body article .img {
     padding-top: 50%;
-    transition: .4s ease;
+    transition: 0.4s ease;
   }
+
   /* latest funding rounds */
+
   .rounds-wrapper {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 16px;
   }
+
   /* sections */
+
   .sections {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 15px;
   }
+
   /* latest deals */
+
   .deals-container {
     display: flex;
     flex-wrap: wrap;
@@ -859,7 +859,9 @@ footer {
     text-transform: uppercase;
     top: 20px;
   }
+
   /* footer */
+
   .footer-bottom {
     flex-direction: row;
   }
@@ -906,7 +908,9 @@ footer {
     font-size: 20px;
     padding: 0 10px;
   }
+
   /* general settings */
+
   .wrapper {
     max-width: 1192px;
     margin: 0 auto;
@@ -917,12 +921,16 @@ footer {
   .cover-h3 {
     font-size: 26px;
   }
+
   /* news section */
+
   .news-body article {
     flex-basis: 25%;
     max-width: 25%;
   }
+
   /* review on this */
+
   #big-cover-logo img {
     top: 20px;
     left: 4px;
@@ -944,7 +952,9 @@ footer {
     background: linear-gradient(to bottom right, rgba(255, 67, 10, 0.85) 20%, black 95%);
     z-index: 0;
   }
+
   /* latest funding rounds */
+
   .round-hidden {
     display: block;
   }
@@ -952,13 +962,17 @@ footer {
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-gap: 22px;
   }
+
   /* sections */
+
   .sections {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 24px;
   }
+
   /* latest deals */
+
   .deals-container article {
     flex-basis: 25%;
     max-width: 25%;
