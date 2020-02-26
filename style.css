@@ -166,7 +166,8 @@ a .gray:hover {
     color: black;
 }
 
-.hide {
+.hide,
+.hide-tablet {
     display: none;
 }
 
@@ -867,6 +868,46 @@ footer {
     .main-header {
         display: none;
     } */
+    .navbar {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 32px 48px;
+        grid-template-areas: "top-gray""nav-sections";
+    }
+    #navbar-logo {
+        display: none;
+    }
+    .hide-tablet {
+        display: flex;
+    }
+    .hide-tablet button {
+        margin: 10px;
+        border: none;
+        background-color: #0cc;
+        border-radius: 5px;
+        padding: 0 10px;
+        color: white;
+        font-weight: bold;
+        font-family: "Arial";
+        text-transform: uppercase;
+        font-size: 10px;
+    }
+    .tnw2020 img {
+        width: 125px;
+    }
+    .kicks {
+        align-self: center;
+        justify-self: center;
+        text-transform: uppercase;
+        font-family: "Roboto";
+        font-size: 13px;
+        color: #999;
+    }
+    .kicks a {
+        color: red;
+        font-size: 20px;
+        padding: 0 10px;
+    }
     /* general settings */
     .wrapper {
         max-width: 1192px;
@@ -876,6 +917,10 @@ footer {
     .news-body article {
         flex-basis: 25%;
         max-width: 25%;
+    }
+    .img-cover-01 {
+        /*not working*/
+        background-image: url(./images/cover-01.png) linear-gradient(to right bottom, rgba(255, 67, 10, 0.85) 20%, rgba(255, 67, 10, 0.5) 60%, transparent);
     }
     /* latest funding rounds */
     .round-hidden {
