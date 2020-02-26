@@ -101,6 +101,11 @@ a {
     justify-content: center;
 }
 
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
 .nav-sections {
     display: flex;
     justify-content: space-between;
@@ -171,22 +176,6 @@ a .gray:hover {
     left: 0;
     right: 0;
     z-index: 100;
-}
-
-
-/* .menu {
-    display: grid;
-    grid-template-columns: 105px auto 48px 48px;
-    list-style-type: none;
-    justify-items: center;
-    background-color: white;
-    height: 48px;
-} */
-
-.menu {
-    display: flex;
-    justify-content: space-between;
-    background-color: white;
 }
 
 .search,
@@ -710,9 +699,9 @@ footer {
 @media (min-width: 768px) {
     .navbar {
         display: grid;
-        grid-template-columns: 106px auto auto;
+        grid-template-columns: 106px 1fr;
         grid-template-rows: 32px 48px;
-        grid-template-areas: "logo top-gray top-gray""logo nav-sections nav-sections";
+        grid-template-areas: "logo top-gray""logo nav-sections";
     }
     #navbar-logo {
         height: 80px;
@@ -727,7 +716,7 @@ footer {
         padding: 8px 20px;
         grid-area: top-gray;
         background-color: #131313;
-        color: #fff;
+        color: #999;
         font-size: 13px;
         height: 32px;
     }
@@ -737,6 +726,9 @@ footer {
     .navtnw li {
         display: inline-block;
         padding-left: 5px;
+    }
+    #news {
+        color: #fff;
     }
     .nav-sections {
         display: flex;
